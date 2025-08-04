@@ -1436,6 +1436,11 @@ https://templatemo.com/tm-594-nexus-flow
   box-shadow: 0 0 20px var(--primary-cyan);
   border-radius: 2px;
 }
+.hobby-card:hover p {
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
 
 .hobbies-subtitle {
   font-size: 1.2rem;
@@ -2094,4 +2099,5 @@ https://templatemo.com/tm-594-nexus-flow
 
         ::-webkit-scrollbar-thumb:hover {
             background: linear-gradient(var(--primary-pink), var(--primary-cyan));
+
         }
